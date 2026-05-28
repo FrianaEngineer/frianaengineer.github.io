@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portfolio website for Friana Engineer, a Cornell data scientist and violinist."
+  >
+  <title>Friana Engineer | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true">
+    <div class="site-glow glow-one"></div>
+    <div class="site-glow glow-two"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#hero">Friana Engineer</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero reveal" id="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Cornell · Data Science · Violin</p>
+        <h1>Portfolio</h1>
+        <p class="intro">
+          I’m Friana Engineer, a data scientist and violinist at Cornell. I use data,
+          visualization, and creative thinking to explore patterns and communicate insights clearly.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <a class="project-card project-link" href="https://frianaengineer.github.io/Percolation/" target="_blank" rel="noreferrer">
+          <p class="project-type">Visualization</p>
+          <h3>Percolation</h3>
+          <p>
+            An interactive computational model showing how connected paths emerge in a grid, with
+            visual explanations of percolation, thresholds, and system behavior.
+          </p>
+          <span class="project-tag">Java · Modeling</span>
+        </a>
+        <a class="project-card project-link" href="https://frianaengineer.github.io/Reel_Connections/" target="_blank" rel="noreferrer">
+          <p class="project-type">Data Visualization</p>
+          <h3>Reel Connections</h3>
+          <p>
+            A network visualization project exploring classic cinema through the Criterion
+            Collection, using clustering and graph structure to reveal relationships across films.
+          </p>
+          <span class="project-tag">Python · Networks</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section about-section reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Connection</p>
+        <h2>About</h2>
+      </div>
+      <div class="about-layout">
+        <article class="about-card about-feature">
+          <p>
+            My work in data science and music is connected by the same instincts: pattern
+            recognition, creative interpretation, and disciplined practice. In analysis, I look for
+            structure inside complexity; in violin, I shape detail into something expressive and
+            coherent.
+          </p>
+          <p>
+            Both fields reward close attention, curiosity, and the ability to turn technical rigor
+            into something meaningful for other people.
+          </p>
+        </article>
+        <div class="about-notes">
+          <article class="about-card">
+            <h3>Pattern Recognition</h3>
+            <p>From datasets to musical phrases, I’m interested in how small signals build larger meaning.</p>
+          </article>
+          <article class="about-card">
+            <h3>Creativity</h3>
+            <p>Strong analysis is not only correct; it is designed, framed, and communicated with intention.</p>
+          </article>
+          <article class="about-card">
+            <h3>Discipline</h3>
+            <p>Research and performance both rely on repetition, patience, and steady refinement over time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-panel">
+        <div class="skills-list" aria-label="Skills">
+          <span>Python</span>
+          <span>pandas</span>
+          <span>Data Visualization</span>
+          <span>Machine Learning</span>
+          <span>Research</span>
+          <span>Communication</span>
+        </div>
+        <a class="button button-primary resume-button" href="#" aria-label="Resume placeholder link">Resume</a>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="contact-card">
+        <div class="section-heading compact">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s Connect</h2>
+        </div>
+        <p class="contact-copy">
+          I’m interested in data science, research, and creative collaboration at the intersection
+          of analysis and storytelling.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
