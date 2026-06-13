@@ -251,6 +251,10 @@ a {
   margin-bottom: 0;
 }
 
+.about-card p + p {
+  margin-top: 1.2rem;
+}
+
 .section {
   padding: 1rem 0;
 }
@@ -320,19 +324,14 @@ a {
   font-size: 0.88rem;
 }
 
-.about-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.9fr);
-  gap: 1rem;
+.about-shell {
+  display: flex;
+  justify-content: center;
 }
 
-.about-feature {
-  padding: clamp(1.6rem, 3vw, 2.4rem);
-}
-
-.about-notes {
-  display: grid;
-  gap: 1rem;
+.about-single-card {
+  width: min(100%, 760px);
+  padding: clamp(1.75rem, 3vw, 2.6rem);
 }
 
 .skills-panel {
@@ -417,7 +416,6 @@ a {
 
 @media (max-width: 960px) {
   .hero,
-  .about-layout,
   .projects-grid {
     grid-template-columns: 1fr;
   }
